@@ -10,13 +10,13 @@ import { TokenManager } from './TokenManager';
 import { logger } from '@/utils/logger';
 
 const MOCK_USERS: Record<string, { password: string; user: User }> = {
-  'admin@corp.com': {
-    password: 'admin123',
-    user: { id: 'u-001', name: 'Admin User', email: 'admin@corp.com', role: 'Administrator' },
+  'abhi@dedov.com': {
+    password: 'abhi123',
+    user: { id: 'u-001', name: 'Admin User', email: 'abhi@dedov.com', role: 'Administrator' },
   },
-  'user@corp.com': {
+  'user@dedov.com': {
     password: 'user123',
-    user: { id: 'u-002', name: 'Jane Smith', email: 'user@corp.com', role: 'Analyst' },
+    user: { id: 'u-002', name: 'Jane Smith', email: 'user@dedov.com', role: 'Analyst' },
   },
 };
 

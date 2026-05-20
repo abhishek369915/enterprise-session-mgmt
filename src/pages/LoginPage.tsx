@@ -17,8 +17,8 @@ export function LoginPage() {
   const [params] = useSearchParams();
   const { startSession } = useSession();
 
-  const [email, setEmail] = useState('admin@corp.com');
-  const [password, setPassword] = useState('admin123');
+  const [email, setEmail] = useState('abhi@dedov.com');
+  const [password, setPassword] = useState('abhi123');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -168,8 +168,8 @@ export function LoginPage() {
 
           <div style={{ marginTop: '1rem', fontSize: '0.775rem', color: '#9ca3af', borderTop: '1px solid #f3f4f6', paddingTop: '0.75rem' }}>
             <div style={{ fontWeight: 500, marginBottom: '0.25rem', color: '#6b7280' }}>Demo accounts:</div>
-            <div>admin@corp.com / admin123</div>
-            <div>user@corp.com / user123</div>
+            <div>abhi@dedov.com / abhi123</div>
+            <div>user@dedov.com / user123</div>
           </div>
         </div>
       </div>
