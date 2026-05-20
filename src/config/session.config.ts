@@ -10,7 +10,7 @@ const configs: Record<Environment, SessionConfig> = {
   development: {
     idleWarningMs: 30_000,       // 30s — fast feedback during dev
     idleTimeoutMs: 60_000,       // 60s total idle before logout
-    accessTokenExpiryMs: 120_000,
+    accessTokenExpiryMs: 60_000,
     refreshTokenExpiryMs: 300_000,
     refreshExpiryWarningMs: 240_000,
     environment: 'development',
